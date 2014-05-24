@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "BIViewController.h"
+#import "BIEnterCodeViewController.h"
 #import <Parse/Parse.h>
 
-@interface BIViewController ()
+@interface BIEnterCodeViewController ()
 
 @end
 
-@implementation BIViewController
+@implementation BIEnterCodeViewController
 
 - (void)viewDidLoad
 {

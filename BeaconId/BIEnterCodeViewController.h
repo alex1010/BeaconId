@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIViewController : UIViewController
+@interface BIEnterCodeViewController : UIViewController
 
 @end

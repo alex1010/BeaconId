@@ -15,7 +15,7 @@
 		FA11C9E1193126F9000797DD /* BIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C9E0193126F9000797DD /* BIAppDelegate.m */; };
 		FA11C9E4193126F9000797DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11C9E2193126F9000797DD /* Main_iPhone.storyboard */; };
 		FA11C9E7193126F9000797DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA11C9E5193126F9000797DD /* Main_iPad.storyboard */; };
-		FA11C9EA193126F9000797DD /* BIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C9E9193126F9000797DD /* BIViewController.m */; };
+		FA11C9EA193126F9000797DD /* BIEnterCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C9E9193126F9000797DD /* BIEnterCodeViewController.m */; };
 		FA11C9EC193126F9000797DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA11C9EB193126F9000797DD /* Images.xcassets */; };
 		FA11C9F3193126F9000797DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C9F2193126F9000797DD /* XCTest.framework */; };
 		FA11C9F4193126F9000797DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C9D0193126F9000797DD /* Foundation.framework */; };
@@ -33,6 +33,8 @@
 		FA11CA1A1931289E000797DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA161931289E000797DD /* StoreKit.framework */; };
 		FA11CA1B1931289E000797DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA171931289E000797DD /* SystemConfiguration.framework */; };
 		FA11CA1D19312D1A000797DD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA1C19312D1A000797DD /* CoreBluetooth.framework */; };
+		FA11CA2019312F9D000797DD /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11CA1F19312F9D000797DD /* Common.m */; };
+		FA11CA231931305D000797DD /* BIScanBeaconsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11CA221931305D000797DD /* BIScanBeaconsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +60,8 @@
 		FA11C9E0193126F9000797DD /* BIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIAppDelegate.m; sourceTree = "<group>"; };
 		FA11C9E3193126F9000797DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		FA11C9E6193126F9000797DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		FA11C9E8193126F9000797DD /* BIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIViewController.h; sourceTree = "<group>"; };
-		FA11C9E9193126F9000797DD /* BIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIViewController.m; sourceTree = "<group>"; };
+		FA11C9E8193126F9000797DD /* BIEnterCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIEnterCodeViewController.h; sourceTree = "<group>"; };
+		FA11C9E9193126F9000797DD /* BIEnterCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIEnterCodeViewController.m; sourceTree = "<group>"; };
 		FA11C9EB193126F9000797DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA11C9F1193126F9000797DD /* BeaconIdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconIdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA11C9F2193126F9000797DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -77,6 +79,10 @@
 		FA11CA161931289E000797DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		FA11CA171931289E000797DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		FA11CA1C19312D1A000797DD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FA11CA1E19312F9D000797DD /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		FA11CA1F19312F9D000797DD /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		FA11CA211931305D000797DD /* BIScanBeaconsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIScanBeaconsViewController.h; sourceTree = "<group>"; };
+		FA11CA221931305D000797DD /* BIScanBeaconsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIScanBeaconsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,8 +168,12 @@
 				FA11C9E0193126F9000797DD /* BIAppDelegate.m */,
 				FA11C9E2193126F9000797DD /* Main_iPhone.storyboard */,
 				FA11C9E5193126F9000797DD /* Main_iPad.storyboard */,
-				FA11C9E8193126F9000797DD /* BIViewController.h */,
-				FA11C9E9193126F9000797DD /* BIViewController.m */,
+				FA11C9E8193126F9000797DD /* BIEnterCodeViewController.h */,
+				FA11C9E9193126F9000797DD /* BIEnterCodeViewController.m */,
+				FA11CA211931305D000797DD /* BIScanBeaconsViewController.h */,
+				FA11CA221931305D000797DD /* BIScanBeaconsViewController.m */,
+				FA11CA1E19312F9D000797DD /* Common.h */,
+				FA11CA1F19312F9D000797DD /* Common.m */,
 				FA11C9EB193126F9000797DD /* Images.xcassets */,
 				FA11C9D7193126F9000797DD /* Supporting Files */,
 			);
@@ -298,7 +308,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA11C9EA193126F9000797DD /* BIViewController.m in Sources */,
+				FA11CA2019312F9D000797DD /* Common.m in Sources */,
+				FA11CA231931305D000797DD /* BIScanBeaconsViewController.m in Sources */,
+				FA11C9EA193126F9000797DD /* BIEnterCodeViewController.m in Sources */,
 				FA11C9DD193126F9000797DD /* main.m in Sources */,
 				FA11C9E1193126F9000797DD /* BIAppDelegate.m in Sources */,
 			);
