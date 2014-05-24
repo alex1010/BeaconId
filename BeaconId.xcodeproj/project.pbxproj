@@ -22,6 +22,17 @@
 		FA11C9F5193126F9000797DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11C9D4193126F9000797DD /* UIKit.framework */; };
 		FA11C9FD193126F9000797DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA11C9FB193126F9000797DD /* InfoPlist.strings */; };
 		FA11C9FF193126F9000797DD /* BeaconIdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA11C9FE193126F9000797DD /* BeaconIdTests.m */; };
+		FA11CA091931283A000797DD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA081931283A000797DD /* Parse.framework */; };
+		FA11CA0D19312873000797DD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA0A19312873000797DD /* AudioToolbox.framework */; };
+		FA11CA0E19312873000797DD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA0B19312873000797DD /* CFNetwork.framework */; };
+		FA11CA0F19312873000797DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA0C19312873000797DD /* CoreLocation.framework */; };
+		FA11CA121931288B000797DD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA101931288B000797DD /* libz.dylib */; };
+		FA11CA131931288B000797DD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA111931288B000797DD /* MobileCoreServices.framework */; };
+		FA11CA181931289E000797DD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA141931289E000797DD /* QuartzCore.framework */; };
+		FA11CA191931289E000797DD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA151931289E000797DD /* Security.framework */; };
+		FA11CA1A1931289E000797DD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA161931289E000797DD /* StoreKit.framework */; };
+		FA11CA1B1931289E000797DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA171931289E000797DD /* SystemConfiguration.framework */; };
+		FA11CA1D19312D1A000797DD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA11CA1C19312D1A000797DD /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +66,17 @@
 		FA11C9FA193126F9000797DD /* BeaconIdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconIdTests-Info.plist"; sourceTree = "<group>"; };
 		FA11C9FC193126F9000797DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA11C9FE193126F9000797DD /* BeaconIdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconIdTests.m; sourceTree = "<group>"; };
+		FA11CA081931283A000797DD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FA11CA0A19312873000797DD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA11CA0B19312873000797DD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA11CA0C19312873000797DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA11CA101931288B000797DD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FA11CA111931288B000797DD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FA11CA141931289E000797DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FA11CA151931289E000797DD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA11CA161931289E000797DD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FA11CA171931289E000797DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA11CA1C19312D1A000797DD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +84,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA11CA0F19312873000797DD /* CoreLocation.framework in Frameworks */,
+				FA11CA1D19312D1A000797DD /* CoreBluetooth.framework in Frameworks */,
+				FA11CA181931289E000797DD /* QuartzCore.framework in Frameworks */,
+				FA11CA191931289E000797DD /* Security.framework in Frameworks */,
+				FA11CA1A1931289E000797DD /* StoreKit.framework in Frameworks */,
+				FA11CA1B1931289E000797DD /* SystemConfiguration.framework in Frameworks */,
+				FA11CA121931288B000797DD /* libz.dylib in Frameworks */,
+				FA11CA131931288B000797DD /* MobileCoreServices.framework in Frameworks */,
 				FA11C9D3193126F9000797DD /* CoreGraphics.framework in Frameworks */,
+				FA11CA0D19312873000797DD /* AudioToolbox.framework in Frameworks */,
+				FA11CA0E19312873000797DD /* CFNetwork.framework in Frameworks */,
 				FA11C9D5193126F9000797DD /* UIKit.framework in Frameworks */,
+				FA11CA091931283A000797DD /* Parse.framework in Frameworks */,
 				FA11C9D1193126F9000797DD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +136,17 @@
 		FA11C9CF193126F9000797DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA11CA1C19312D1A000797DD /* CoreBluetooth.framework */,
+				FA11CA141931289E000797DD /* QuartzCore.framework */,
+				FA11CA151931289E000797DD /* Security.framework */,
+				FA11CA161931289E000797DD /* StoreKit.framework */,
+				FA11CA171931289E000797DD /* SystemConfiguration.framework */,
+				FA11CA101931288B000797DD /* libz.dylib */,
+				FA11CA111931288B000797DD /* MobileCoreServices.framework */,
+				FA11CA0A19312873000797DD /* AudioToolbox.framework */,
+				FA11CA0B19312873000797DD /* CFNetwork.framework */,
+				FA11CA0C19312873000797DD /* CoreLocation.framework */,
+				FA11CA081931283A000797DD /* Parse.framework */,
 				FA11C9D0193126F9000797DD /* Foundation.framework */,
 				FA11C9D2193126F9000797DD /* CoreGraphics.framework */,
 				FA11C9D4193126F9000797DD /* UIKit.framework */,
@@ -391,6 +435,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconId/BeaconId-Prefix.pch";
 				INFOPLIST_FILE = "BeaconId/BeaconId-Info.plist";
@@ -404,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconId/BeaconId-Prefix.pch";
 				INFOPLIST_FILE = "BeaconId/BeaconId-Info.plist";
